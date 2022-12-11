@@ -10,6 +10,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { MenubarComponent } from './layout/menubar/menubar.component';
 import { LoginComponent } from './layout/login/login.component';
 import { HomeComponent } from './layout/home/home.component';
+import { GitmComponent } from './gitm/gitm.component';
 //import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HomeComponent } from './layout/home/home.component';
     FooterComponent,
     MenubarComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    GitmComponent
   ],
   imports: [
     BrowserModule,
